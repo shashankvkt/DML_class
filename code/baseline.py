@@ -9,7 +9,7 @@ sys.path.append(root_folder)
 import dataset, net
 
 from net.resnet import *
-from baseline_utils import utils
+# from baseline_utils import utils
 from torch import nn
 import torch.nn.functional as F
 from torch.utils.data.sampler import BatchSampler

@@ -28,7 +28,5 @@ class BalancedSampler(Sampler):
                 
                 ret.extend(np.random.permutation(class_sel))
             num_batches -= 1
-        print(ret)
-        exit()
         return iter(ret) 
         
