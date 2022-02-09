@@ -139,8 +139,7 @@ losses_list = []
 best_recall=[0]
 best_epoch = 0
 
-def margin(x, y):
-    return x - y
+
 
 for epoch in range(0, nb_epochs):
     model.train()
